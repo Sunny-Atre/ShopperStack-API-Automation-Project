@@ -11,7 +11,7 @@ This project automates the validation of ShopperStack's backend REST APIs — co
 - **Total Tests:** 63
 - **Passed:** 61
 - **Failed:** 2 (intentional bug caught — critical price validation failure)
-- **Avg. Response Time:** 356ms
+- **Avg. Response Time:** 450ms
 
 ---
 
@@ -31,9 +31,10 @@ This project automates the validation of ShopperStack's backend REST APIs — co
 
 ```
 ShopperStack-API-Automation-Project/
-├── images/                        # Screenshots and proof of execution
-├── README.md                      # Project documentation
-```
+├── images/                                           # Screenshots and proof of execution
+├── ShopperStackProject.postman_collection.json       # Main Postman Collection
+├── Shopper_Stack_Project_Environment.postman_environment.json  # Environment Variables
+└── README.md                                         # Project documentation```
 
 ---
 
@@ -41,10 +42,10 @@ ShopperStack-API-Automation-Project/
 
 Follow these steps exactly to run the full test suite:
 
-**Step 1 — Import the Collection**
-1. Open Postman
-2. Click **Import** (top left)
-3. Upload the collection JSON file
+**Step 1 — Import the Files**
+1. Open Postman.
+2. Click Import (top left).
+3. Drag and drop ShopperStackProject.postman_collection.json and Shopper_Stack_Project_Environment.postman_environment.json.
 
 **Step 2 — Set Up the Environment**
 1. Click the **Environments** tab on the left sidebar
